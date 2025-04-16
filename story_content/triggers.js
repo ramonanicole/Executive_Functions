@@ -2,10 +2,10 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5eMO0daK6uT":
+      case "6Eic4p525le":
         Script1();
         break;
-      case "5v3SLVeMD7w":
+      case "6oDzph2ZaQW":
         Script2();
         break;
   }
@@ -65,3 +65,12 @@ target.animate([
 }
 
 };
+function getActor() {
+  return {
+    "objectType": "Agent",
+    "account": {
+      "homePage": "https://www.example.com",
+      "name": "Random" + Math.floor(Math.random() * Number.MAX_SAFE_INTEGER)
+    }
+  };
+}
